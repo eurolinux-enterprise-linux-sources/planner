@@ -7,7 +7,7 @@
 Summary:   A graphical project management tool
 Name:      planner
 Version:   0.14.4
-Release:   9%{?dist}
+Release:   10%{?dist}
 License:   GPLv2+
 Group:     Applications/Productivity
 URL:       http://live.gnome.org/Planner
@@ -34,6 +34,7 @@ Patch4: planner-buildfix.patch
 Patch5: planner-gnome603693-planner-calendar-for-edittask.patch
 Patch6: planner-gnome604169-comboboxentry.patch
 Patch7: planner-gnome604355-scrolling.patch
+Patch8: planner-0.14.4-edsapi.patch
 
 %description
 Planner is a visual project management application which allows users to
@@ -71,6 +72,7 @@ This package provides a plugin to integration planner and evolution.
 %patch5 -p1 -b .edittask
 %patch6 -p1 -b .combobox
 %patch7 -p1 -b .scrolling
+%patch8 -p1 -b .edsapi
 
 %build
 rm -rf libegg
@@ -175,6 +177,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/pkgconfig/*
 
 %changelog
+* Tue Jun 11 2013 Matthew Barnes <mbarnes@redhat.com> - 0.14.4-10
+- Resolves: rhbz#973289 rebuild against newer evolution-data-server
+- Also add planner-0.14.4-edsapi.patch from Fedora 14 package.
+
 * Thu Jan 21 2010 Caolán McNamara <caolanm@redhat.com> - 0.14.4-9
 - Resolves: rhbz#557211 evolution is excluded from s390/s390x
 
