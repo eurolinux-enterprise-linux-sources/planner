@@ -1,0 +1,1565 @@
+# Turkish translation of planner.
+# Copyright (C) 2003 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Gorkem Cetin <gorkem@bahcesehir.edu.tr>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: planner\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-12-28 20:56+0100\n"
+"PO-Revision-Date: 2003-12-29 11:43+0000\n"
+"Last-Translator: Gorkem Cetin <gorkem@bahcesehir.edu.tr>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: data/glade/add-predecessor.glade.h:1 data/glade/calendar-dialog.glade.h:4
+#: data/glade/html-output.glade.h:2 data/glade/new-property.glade.h:1
+#: data/glade/project-properties.glade.h:1
+#: data/glade/resource-dialog.glade.h:1
+#: data/glade/resource-input-dialog.glade.h:1 data/glade/sql.glade.h:1
+#: data/glade/task-dialog.glade.h:4 data/glade/task-input-dialog.glade.h:1
+msgid "*"
+msgstr ""
+
+#: data/glade/add-predecessor.glade.h:2
+msgid "Add Predecessor"
+msgstr ""
+
+#: data/glade/add-predecessor.glade.h:3
+msgid "_Lag:"
+msgstr ""
+
+#: data/glade/add-predecessor.glade.h:4 data/glade/calendar-dialog.glade.h:35
+#: data/glade/new-property.glade.h:5 data/glade/project-properties.glade.h:10
+#: data/glade/resource-dialog.glade.h:11
+#: data/glade/resource-input-dialog.glade.h:6
+#: data/glade/task-dialog.glade.h:14 data/glade/task-input-dialog.glade.h:4
+msgid "_Name:"
+msgstr ""
+
+#: data/glade/add-predecessor.glade.h:5
+msgid "_Relation type:"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:1
+msgid ""
+"\n"
+"The selected day type has the following working hours:"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:3 data/glade/html-output.glade.h:1
+#: data/glade/task-dialog.glade.h:1
+msgid "    "
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:5
+msgid "-"
+msgstr "-"
+
+#: data/glade/calendar-dialog.glade.h:6
+msgid "<b>Calendar:</b>"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:7
+msgid "<b>Day types</b>"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:8
+msgid "<b>Working hours</b>"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:9
+msgid "<b>Working time</b>"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:10
+msgid "Add Day Type"
+msgstr "Gün Türü Ekle"
+
+#: data/glade/calendar-dialog.glade.h:11
+msgid "Apply"
+msgstr "Uygula"
+
+#: data/glade/calendar-dialog.glade.h:12
+msgid "C_opy an existing calendar"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:13
+msgid "C_reate"
+msgstr "_Oluştur"
+
+#: data/glade/calendar-dialog.glade.h:14
+msgid "Calendar Editor"
+msgstr "Takvim Düzenleyici"
+
+#: data/glade/calendar-dialog.glade.h:15
+msgid "Create an _empty calendar"
+msgstr "Boş bir takvim _oluştur"
+
+#: data/glade/calendar-dialog.glade.h:16
+msgid "Custom working time"
+msgstr "Özel çalışma saati"
+
+#: data/glade/calendar-dialog.glade.h:17
+msgid "Day type:"
+msgstr "Gün türü:"
+
+#: data/glade/calendar-dialog.glade.h:18
+msgid "Default Week"
+msgstr "Öntanımlı Hafta"
+
+#: data/glade/calendar-dialog.glade.h:19
+msgid "Default week..."
+msgstr "Öntanımlı hafta..."
+
+#: data/glade/calendar-dialog.glade.h:20
+msgid "Edit Day Types"
+msgstr "Gün Türlerini Düzenle"
+
+#: data/glade/calendar-dialog.glade.h:21
+msgid "Edit Working Time"
+msgstr "Çalışma Saatlerini Düzenle"
+
+#: data/glade/calendar-dialog.glade.h:22
+msgid "From:"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:23
+msgid "New Calendar"
+msgstr "Yeni Takvim"
+
+#: data/glade/calendar-dialog.glade.h:24
+msgid "Select a Calendar"
+msgstr "Bir Takvim Seçin"
+
+#: data/glade/calendar-dialog.glade.h:25
+msgid ""
+"Select a weekday and the day type to use for that day in the default week "
+"for this calendar.\n"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:27
+msgid "Set day type to:"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:28
+msgid "To:"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:29
+msgid "Use working time from derived calendar"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:30
+msgid "Week day:"
+msgstr "Haftanın günü:"
+
+#: data/glade/calendar-dialog.glade.h:31
+msgid "Working time..."
+msgstr "Çalışma saati..."
+
+#: data/glade/calendar-dialog.glade.h:32
+msgid "_Derive from a calendar"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:33
+msgid "_Existing calendars:"
+msgstr "_Mevcut takvimler:"
+
+#: data/glade/calendar-dialog.glade.h:34
+msgid "_Name of the new calendar:"
+msgstr "_Yeni takvimin adı:"
+
+#: data/glade/calendar-dialog.glade.h:36
+msgid "_New..."
+msgstr "_Yeni..."
+
+#: data/glade/group-dialog.glade.h:1
+msgid "Group Editor"
+msgstr "Grup Düzenleyici"
+
+#: data/glade/html-output.glade.h:3
+msgid "<b>Save to</b>"
+msgstr ""
+
+#: data/glade/html-output.glade.h:4 data/ui/html-plugin.ui.h:1
+msgid "Export to HTML"
+msgstr "HTML olarak kaydet"
+
+#: data/glade/html-output.glade.h:5
+msgid "Local file:"
+msgstr "Yerel dosya:"
+
+#: data/glade/html-output.glade.h:6
+msgid "Save to HTML File"
+msgstr "HTML Dosyasına Kaydet"
+
+#: data/glade/html-output.glade.h:7
+msgid "Web location:"
+msgstr "Web konumu:"
+
+#: data/glade/new-property.glade.h:2
+msgid "Add Property"
+msgstr "Özellik Ekle"
+
+#: data/glade/new-property.glade.h:3
+msgid "_Description:"
+msgstr "_Açıklama:"
+
+#: data/glade/new-property.glade.h:4
+msgid "_Label:"
+msgstr "_Etiket:"
+
+#: data/glade/new-property.glade.h:6 data/glade/resource-dialog.glade.h:12
+msgid "_Type:"
+msgstr "_Tür:"
+
+#: data/glade/project-properties.glade.h:2
+msgid "Custom"
+msgstr "Özel"
+
+#: data/glade/project-properties.glade.h:3
+msgid "Edit Project Phases"
+msgstr "Proje Safhası Ekle"
+
+#: data/glade/project-properties.glade.h:4
+#: data/glade/resource-dialog.glade.h:5 data/glade/task-dialog.glade.h:6
+msgid "General"
+msgstr "Genel"
+
+#: data/glade/project-properties.glade.h:5
+msgid "New Project Phase"
+msgstr "Yeni Proje Safhası"
+
+#: data/glade/project-properties.glade.h:6
+msgid "Project Properties"
+msgstr "Proje Özellikleri"
+
+#: data/glade/project-properties.glade.h:7
+msgid "Select..."
+msgstr "Seç..."
+
+#: data/glade/project-properties.glade.h:8
+msgid "_Calendar:"
+msgstr "_Takvim:"
+
+#: data/glade/project-properties.glade.h:9
+msgid "_Manager:"
+msgstr "_Yönetici:"
+
+#: data/glade/project-properties.glade.h:11
+msgid "_Organization:"
+msgstr "_Organizasyon:"
+
+#: data/glade/project-properties.glade.h:12
+msgid "_Phase:"
+msgstr "_Safha:"
+
+#: data/glade/project-properties.glade.h:13
+msgid "_Start:"
+msgstr "_Başlangıç:"
+
+#: data/glade/property-dialog.glade.h:1
+msgid "Custom Properties"
+msgstr "Özellikler"
+
+#: data/glade/resource-dialog.glade.h:2
+msgid "C_ost:"
+msgstr ""
+
+#: data/glade/resource-dialog.glade.h:3
+msgid "Calendar"
+msgstr "Takvim"
+
+#: data/glade/resource-dialog.glade.h:4
+msgid "Edit Calendars..."
+msgstr "Takvimleri Düzenle..."
+
+#: data/glade/resource-dialog.glade.h:6 data/glade/task-dialog.glade.h:7
+msgid "Notes"
+msgstr "Notlar"
+
+#: data/glade/resource-dialog.glade.h:7
+msgid ""
+"Select the calendar to use for this resource. If you want to use the default "
+"calendar of the project, select 'None'. "
+msgstr ""
+
+#: data/glade/resource-dialog.glade.h:8
+#: data/glade/resource-input-dialog.glade.h:3
+msgid "_Email:"
+msgstr "E-_posta:"
+
+#: data/glade/resource-dialog.glade.h:9
+#: data/glade/resource-input-dialog.glade.h:4
+msgid "_Group:"
+msgstr "_Grup:"
+
+#: data/glade/resource-dialog.glade.h:10
+msgid "_Insert time stamp"
+msgstr "_Tarih bilgisi ekle"
+
+#: data/glade/resource-input-dialog.glade.h:2
+msgid "Insert Resource"
+msgstr "Kaynak Ekle"
+
+#: data/glade/resource-input-dialog.glade.h:5
+#: data/glade/task-input-dialog.glade.h:3
+msgid "_Insert"
+msgstr "_Ekle"
+
+#: data/glade/sql.glade.h:2
+msgid "Open Database"
+msgstr "Veritabanı Aç"
+
+#: data/glade/sql.glade.h:3
+msgid "Select a Project"
+msgstr "Bir Proje Seç"
+
+#: data/glade/sql.glade.h:4
+msgid "The database contains the following projects. Select a project to open:"
+msgstr ""
+
+#: data/glade/sql.glade.h:5
+msgid "_Database:"
+msgstr "_Veritabanı:"
+
+#: data/glade/sql.glade.h:6
+msgid "_Password:"
+msgstr "_Parola:"
+
+#: data/glade/sql.glade.h:7
+msgid "_Server:"
+msgstr "_Sunucu:"
+
+#: data/glade/sql.glade.h:8
+msgid "_Username:"
+msgstr "_Kullanıcı adı:"
+
+#: data/glade/task-dialog.glade.h:3
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: data/glade/task-dialog.glade.h:5
+msgid "C_omplete:"
+msgstr ""
+
+#: data/glade/task-dialog.glade.h:8
+msgid "Predecessors"
+msgstr ""
+
+#: data/glade/task-dialog.glade.h:9 src/planner-resource-view.c:344
+msgid "Resources"
+msgstr "Kaynaklar"
+
+#: data/glade/task-dialog.glade.h:10
+msgid "_Duration:"
+msgstr "_Süre:"
+
+#: data/glade/task-dialog.glade.h:11
+msgid "_Fixed duration"
+msgstr "S_abit süre"
+
+#: data/glade/task-dialog.glade.h:12
+msgid "_Insert Time Stamp"
+msgstr "Zaman _Bilgisi Ekle"
+
+#: data/glade/task-dialog.glade.h:13
+msgid "_Milestone"
+msgstr ""
+
+#: data/glade/task-dialog.glade.h:15
+msgid "_Priority:"
+msgstr "Ö_ncelik:"
+
+#: data/glade/task-dialog.glade.h:16 data/glade/task-input-dialog.glade.h:5
+msgid "_Work:"
+msgstr ""
+
+#. day unit variant accepted in input
+#: data/glade/task-dialog.glade.h:17 src/planner-task-tree.c:2429
+msgid "days"
+msgstr "gün"
+
+#: data/glade/task-input-dialog.glade.h:2
+msgid "Insert Task"
+msgstr "Görev Ekle"
+
+#: data/planner.desktop.in.h:1
+msgid "Planner Project Management"
+msgstr "Planner Proje Yönetimi"
+
+#: data/planner.desktop.in.h:2
+msgid "Project Management"
+msgstr "Proje Yönetimi"
+
+#: data/ui/gantt-view.ui.h:1 data/ui/task-view.ui.h:1
+msgid "I_ndent Task"
+msgstr "Görev _Girintile"
+
+#: data/ui/gantt-view.ui.h:2 data/ui/task-view.ui.h:2
+msgid "In_sert Tasks..."
+msgstr "Görev _Ekle..."
+
+#: data/ui/gantt-view.ui.h:3 data/ui/task-view.ui.h:3
+#: src/planner-application.c:76
+msgid "Indent"
+msgstr ""
+
+#: data/ui/gantt-view.ui.h:4 data/ui/resource-view.ui.h:5
+#: data/ui/task-view.ui.h:4 src/planner-application.c:55
+#: src/planner-application.c:104
+msgid "Insert"
+msgstr ""
+
+#: data/ui/gantt-view.ui.h:5 data/ui/task-view.ui.h:5
+msgid "Move Task Do_wn"
+msgstr ""
+
+#: data/ui/gantt-view.ui.h:6 data/ui/task-view.ui.h:6
+msgid "Move Task _Up"
+msgstr ""
+
+#: data/ui/gantt-view.ui.h:7 data/ui/task-view.ui.h:7
+#: src/planner-application.c:97
+msgid "Move down"
+msgstr "Aşağı taşı"
+
+#: data/ui/gantt-view.ui.h:8 data/ui/task-view.ui.h:8
+#: src/planner-application.c:90
+msgid "Move up"
+msgstr "Yukarı taşı"
+
+#: data/ui/gantt-view.ui.h:9 data/ui/resource-view.ui.h:6
+#: data/ui/task-view.ui.h:9 src/planner-application.c:62
+#: src/planner-application.c:111
+msgid "Remove"
+msgstr "Kaldır"
+
+#: data/ui/gantt-view.ui.h:10 data/ui/task-view.ui.h:10
+msgid "Reset _All Constraints"
+msgstr ""
+
+#: data/ui/gantt-view.ui.h:11 data/ui/task-view.ui.h:11
+msgid "Reset _Constraint"
+msgstr ""
+
+#: data/ui/gantt-view.ui.h:12 data/ui/resource-view.ui.h:7
+#: data/ui/task-view.ui.h:12
+msgid "Select _All"
+msgstr "_Hepsini Seç"
+
+#: data/ui/gantt-view.ui.h:13 data/ui/resource-view.ui.h:8
+#: data/ui/task-view.ui.h:13
+msgid "Select all tasks"
+msgstr "Tüm görevleri seç"
+
+#: data/ui/gantt-view.ui.h:14
+msgid "Test"
+msgstr "Test"
+
+#: data/ui/gantt-view.ui.h:15 data/ui/task-view.ui.h:14
+msgid "Un_link Task"
+msgstr ""
+
+#: data/ui/gantt-view.ui.h:16 data/ui/task-view.ui.h:15
+msgid "Unin_dent Task"
+msgstr ""
+
+#: data/ui/gantt-view.ui.h:17 data/ui/task-view.ui.h:16
+#: src/planner-application.c:83
+msgid "Unindent"
+msgstr ""
+
+#: data/ui/gantt-view.ui.h:18 data/ui/task-view.ui.h:17
+#: src/planner-application.c:69
+msgid "Unlink"
+msgstr ""
+
+#: data/ui/gantt-view.ui.h:19
+msgid "Zoom In"
+msgstr "Yakınlaş"
+
+#: data/ui/gantt-view.ui.h:20
+msgid "Zoom Out"
+msgstr "Uzaklaş"
+
+#: data/ui/gantt-view.ui.h:21
+msgid "Zoom To Fit"
+msgstr "Sayfaya Uydur"
+
+#: data/ui/gantt-view.ui.h:22
+msgid "Zoom To _Fit"
+msgstr "_Sayfaya Uydur"
+
+#: data/ui/gantt-view.ui.h:23
+msgid "Zoom _Out"
+msgstr "_Uzaklaş"
+
+#: data/ui/gantt-view.ui.h:24 data/ui/task-view.ui.h:19
+msgid "_Edit Task Properties..."
+msgstr "_Görev Özelliklerini Düzenle..."
+
+#: data/ui/gantt-view.ui.h:25 data/ui/task-view.ui.h:20
+msgid "_Highlight Critical Tasks"
+msgstr "_Kritik Görevleri Renklendir"
+
+#: data/ui/gantt-view.ui.h:26 data/ui/task-view.ui.h:21
+msgid "_Insert Task"
+msgstr "Gö_rev Ekle"
+
+#: data/ui/gantt-view.ui.h:27 data/ui/task-view.ui.h:22
+msgid "_Remove Task"
+msgstr "Göre_vi Kaldır"
+
+#: data/ui/gantt-view.ui.h:28
+msgid "_Zoom In"
+msgstr "_Yakınlaş"
+
+#: data/ui/main-window.ui.h:1
+msgid "About this application"
+msgstr "Bu uygulama hakkında"
+
+#: data/ui/main-window.ui.h:2
+msgid "C_ut"
+msgstr "_Kes"
+
+#: data/ui/main-window.ui.h:3
+msgid "Clear"
+msgstr "Temizle"
+
+#: data/ui/main-window.ui.h:4
+msgid "Clear the selection"
+msgstr "Seçimi temizle"
+
+#: data/ui/main-window.ui.h:5
+msgid "Close the current file"
+msgstr "Güncel dosyayı kapat"
+
+#: data/ui/main-window.ui.h:6
+msgid "Copy the selection"
+msgstr "Seçimi kopyala"
+
+#: data/ui/main-window.ui.h:7
+msgid "Create a new project"
+msgstr "Yeni bir proje oluştur"
+
+#: data/ui/main-window.ui.h:8
+msgid "Cut the selection"
+msgstr "Seçimi kes"
+
+#: data/ui/main-window.ui.h:9
+msgid "Edit Day _Types"
+msgstr "Gün _Türlerini Düzenle"
+
+#: data/ui/main-window.ui.h:10
+msgid "Edit Project _Phases"
+msgstr "Proje _Safhalarını Düzenle"
+
+#: data/ui/main-window.ui.h:11
+msgid "Edit the project properties"
+msgstr "Proje özelliklerini düzenle"
+
+#: data/ui/main-window.ui.h:12
+msgid "Exit the program"
+msgstr "Programdan çık"
+
+#: data/ui/main-window.ui.h:13
+msgid "New"
+msgstr "Yeni"
+
+#: data/ui/main-window.ui.h:14
+msgid "New..."
+msgstr "Yeni..."
+
+#: data/ui/main-window.ui.h:15
+msgid "Open"
+msgstr "Aç"
+
+#: data/ui/main-window.ui.h:16
+msgid "Open a project"
+msgstr "Bir proje aç"
+
+#: data/ui/main-window.ui.h:17
+msgid "Paste the clipboard"
+msgstr "Panoya yapıştır"
+
+#: data/ui/main-window.ui.h:18
+msgid "Print"
+msgstr "Yazdır"
+
+#: data/ui/main-window.ui.h:19
+msgid "Print preview of the current project"
+msgstr ""
+
+#: data/ui/main-window.ui.h:20
+msgid "Print the current project"
+msgstr ""
+
+#: data/ui/main-window.ui.h:21
+msgid "Redo the undone action"
+msgstr ""
+
+#: data/ui/main-window.ui.h:22
+msgid "Save"
+msgstr "Kaydet"
+
+#: data/ui/main-window.ui.h:23
+msgid "Save _As..."
+msgstr "_Farklı Kaydet..."
+
+#: data/ui/main-window.ui.h:24
+msgid "Save the current project"
+msgstr "Güncel projeyi kaydet"
+
+#: data/ui/main-window.ui.h:25
+msgid "Save the current project with a different name"
+msgstr "Güncel projeyi farklı bir isimde kaydet"
+
+#: data/ui/main-window.ui.h:26
+msgid "Show the Planner User Guide"
+msgstr "Planner Kullanıcı Kılavuzunu Göster"
+
+#: data/ui/main-window.ui.h:27
+msgid "Undo the last action"
+msgstr "Son yapılan işlemi geri al"
+
+#: data/ui/main-window.ui.h:28
+msgid "_About"
+msgstr "_Hakkında"
+
+#: data/ui/main-window.ui.h:29
+msgid "_Actions"
+msgstr "_Eylemler"
+
+#: data/ui/main-window.ui.h:30
+msgid "_Close"
+msgstr "_Kapat"
+
+#: data/ui/main-window.ui.h:31
+msgid "_Copy"
+msgstr "K_opyala"
+
+#: data/ui/main-window.ui.h:32
+msgid "_Edit"
+msgstr "Dü_zenle"
+
+#: data/ui/main-window.ui.h:33
+msgid "_Edit Project Properties"
+msgstr "Pro_je Özelliklerini Düzenle"
+
+#: data/ui/main-window.ui.h:34
+msgid "_File"
+msgstr "_Dosya"
+
+#: data/ui/main-window.ui.h:35
+msgid "_Help"
+msgstr "_Yardım"
+
+#: data/ui/main-window.ui.h:36
+msgid "_Manage Calendars"
+msgstr "Ta_kvimleri Yönet"
+
+#: data/ui/main-window.ui.h:37
+msgid "_New Project"
+msgstr "Yeni Pr_oje"
+
+#: data/ui/main-window.ui.h:38
+msgid "_Open..."
+msgstr "_Aç..."
+
+#: data/ui/main-window.ui.h:39
+msgid "_Paste"
+msgstr "_Yapıştır"
+
+#: data/ui/main-window.ui.h:40
+msgid "_Print Preview"
+msgstr "Ya_zıcı Önizleme"
+
+#: data/ui/main-window.ui.h:41
+msgid "_Print..."
+msgstr "_Yazdır..."
+
+#: data/ui/main-window.ui.h:42
+msgid "_Project"
+msgstr "_Proje"
+
+#: data/ui/main-window.ui.h:43
+msgid "_Quit"
+msgstr "Çı_k"
+
+#: data/ui/main-window.ui.h:44 src/planner-cmd-manager.c:240
+msgid "_Redo"
+msgstr "_Yinele"
+
+#: data/ui/main-window.ui.h:45 src/planner-window.c:1259
+msgid "_Save"
+msgstr "_Kaydet"
+
+#: data/ui/main-window.ui.h:46 src/planner-cmd-manager.c:228
+msgid "_Undo"
+msgstr "_Geri al"
+
+#: data/ui/main-window.ui.h:47
+msgid "_User Guide"
+msgstr "_Kullanıcı Kılavuzu"
+
+#: data/ui/main-window.ui.h:48
+msgid "_View"
+msgstr "_Görüntüle"
+
+#: data/ui/resource-view.ui.h:1
+msgid "Edit _Custom Properties..."
+msgstr ""
+
+#: data/ui/resource-view.ui.h:2
+msgid "Edit _Groups"
+msgstr "_Grupları Düzenle"
+
+#: data/ui/resource-view.ui.h:3
+msgid "Groups"
+msgstr "Gruplar"
+
+#: data/ui/resource-view.ui.h:4
+msgid "In_sert Resources..."
+msgstr "_Kaynak Ekle..."
+
+#: data/ui/resource-view.ui.h:9
+msgid "_Edit Resource Properties..."
+msgstr "Kaynak _Özelliklerini Düzenle..."
+
+#: data/ui/resource-view.ui.h:10
+msgid "_Insert Resource"
+msgstr "Kaynak _Ekle"
+
+#: data/ui/resource-view.ui.h:11
+msgid "_Remove Resource"
+msgstr "_Kaynağı Sil"
+
+#: data/ui/sql-plugin.ui.h:1
+msgid "Open from Database..."
+msgstr "Veritabanından Aç..."
+
+#: data/ui/sql-plugin.ui.h:2
+msgid "Save to Database..."
+msgstr "Veritabanına Kaydet..."
+
+#: data/ui/task-view.ui.h:18
+msgid "_Edit Custom Properties..."
+msgstr ""
+
+#: libegg/recent-files/egg-recent-vfs-utils.c:90
+msgid " (invalid Unicode)"
+msgstr " (geçersiz Unicode)"
+
+#: libplanner/mrp-day.c:54
+msgid "Working"
+msgstr ""
+
+#: libplanner/mrp-day.c:55
+msgid "A default working day"
+msgstr ""
+
+#: libplanner/mrp-day.c:57
+msgid "Nonworking"
+msgstr ""
+
+#: libplanner/mrp-day.c:58
+msgid "A default non working day"
+msgstr ""
+
+#: libplanner/mrp-day.c:60
+msgid "Use base"
+msgstr ""
+
+#: libplanner/mrp-day.c:61
+msgid "Use day from base calendar"
+msgstr ""
+
+#: libplanner/mrp-parser.c:1043 libplanner/mrp-parser.c:1138
+msgid "Could not create XML tree"
+msgstr ""
+
+#: libplanner/mrp-parser.c:1104
+msgid "Could not write XML file"
+msgstr "XML dosyasına yazılamadı"
+
+#: libplanner/mrp-project.c:442 src/planner-group-dialog.c:411
+msgid "Default"
+msgstr "Öntanımlı"
+
+#: libplanner/mrp-project.c:750
+#, c-format
+msgid "Couldn't find a suitable file module for loading '%s'"
+msgstr ""
+
+#: libplanner/mrp-project.c:771 libplanner/mrp-project.c:1035
+msgid "No support for SQL storage built into this version of Planner."
+msgstr ""
+
+#: libplanner/mrp-project.c:808
+msgid "Invalid URI."
+msgstr "Geçersiz adres."
+
+#: libplanner/mrp-project.c:929
+#, c-format
+msgid "Unable to find file writer identified by '%s'"
+msgstr ""
+
+#: libplanner/mrp-project.c:992
+msgid "Couldn't find a suitable file module for loading project"
+msgstr ""
+
+#: libplanner/mrp-property.c:365
+msgid "Text"
+msgstr ""
+
+#: libplanner/mrp-property.c:367
+msgid "String list"
+msgstr ""
+
+#: libplanner/mrp-property.c:369
+msgid "Integer number"
+msgstr ""
+
+#: libplanner/mrp-property.c:371
+msgid "Floating-point number"
+msgstr ""
+
+#: libplanner/mrp-property.c:373
+msgid "Date"
+msgstr "Tarih"
+
+#: libplanner/mrp-property.c:375
+msgid "Duration"
+msgstr "Süre"
+
+#: libplanner/mrp-property.c:377 src/planner-task-view.c:266
+msgid "Cost"
+msgstr ""
+
+#: libplanner/mrp-property.c:380 src/planner-project-properties.c:655
+msgid "None"
+msgstr "Hiçbiri"
+
+#. Give up.
+#: libplanner/mrp-sql.c:229 src/planner-sql-plugin.c:131
+msgid "Invalid Unicode"
+msgstr "Geçersiz Unicode"
+
+#: libplanner/mrp-sql.c:2205
+#, c-format
+msgid ""
+"The project '%s' has been changed by the user '%s' since you opened it. Do "
+"you want to save anyway?"
+msgstr ""
+
+#: libplanner/mrp-sql.c:3443
+#, c-format
+msgid ""
+"Connection to database '%s' failed.\n"
+"%s"
+msgstr ""
+
+#: libplanner/mrp-storage-sql.c:205
+msgid "Invalid SQL URI (must start with 'sql://' and contain '#')."
+msgstr ""
+
+#: libplanner/mrp-storage-sql.c:274
+msgid "Invalid SQL URI (invalid project id)."
+msgstr ""
+
+#: libplanner/mrp-storage-sql.c:282
+msgid "Invalid SQL URI (no database name specified)."
+msgstr ""
+
+#: libplanner/mrp-task.c:1016
+msgid ""
+"Could not add a predecessor relation, because the tasks are already related."
+msgstr ""
+
+#: libplanner/mrp-task-manager.c:1769
+msgid "Can not add a predecessor relation between a task and its ancestor."
+msgstr ""
+
+#: libplanner/mrp-task-manager.c:1778 libplanner/mrp-task-manager.c:1786
+msgid "Can not add a predecessor, because it would result in a loop."
+msgstr ""
+
+#: libplanner/mrp-task-manager.c:1821
+msgid "Can not move the task, since it would result in a loop."
+msgstr ""
+
+#: libplanner/mrp-xsl.c:96
+msgid "HTML export failed"
+msgstr ""
+
+#: src/planner-application.c:118
+msgid "Edit"
+msgstr ""
+
+#: src/planner-cell-renderer-date.c:147
+msgid "Constraint type"
+msgstr ""
+
+#: src/planner-cell-renderer-date.c:154
+msgid "As soon as possible"
+msgstr ""
+
+#: src/planner-cell-renderer-date.c:155
+msgid "Start no earlier than"
+msgstr ""
+
+#: src/planner-cell-renderer-date.c:156
+msgid "Must start on"
+msgstr ""
+
+#: src/planner-cell-renderer-date.c:171
+msgid "Today"
+msgstr "Bugün"
+
+#. gtk_signal_connect (GTK_OBJECT (button), "clicked",
+#. GTK_SIGNAL_FUNC (m_cell_date_today_clicked),
+#. date);
+#.
+#: src/planner-cell-renderer-date.c:179
+msgid "Cancel"
+msgstr "İptal"
+
+#: src/planner-cell-renderer-date.c:187
+msgid "OK"
+msgstr "Tamam"
+
+#: src/planner-cmd-manager.c:226
+#, c-format
+msgid "_Undo '%s'"
+msgstr "Geri al: '%s'"
+
+#: src/planner-cmd-manager.c:238
+#, c-format
+msgid "_Redo '%s'"
+msgstr "_Yinele: '%s'"
+
+#: src/planner-default-week-dialog.c:40
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: src/planner-default-week-dialog.c:41
+msgid "Tuesday"
+msgstr "Salı"
+
+#: src/planner-default-week-dialog.c:42
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: src/planner-default-week-dialog.c:43
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: src/planner-default-week-dialog.c:44
+msgid "Friday"
+msgstr "Cuma"
+
+#: src/planner-default-week-dialog.c:45
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: src/planner-default-week-dialog.c:46
+msgid "Sunday"
+msgstr "Pazar"
+
+#: src/planner-default-week-dialog.c:266
+msgid "No working time"
+msgstr ""
+
+#: src/planner-default-week-dialog.c:277 src/planner-default-week-dialog.c:281
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: src/planner-format.c:141
+#, c-format
+msgid "%dd %dh"
+msgstr "%dd %dh"
+
+#: src/planner-format.c:144
+#, c-format
+msgid "%dd"
+msgstr "%dd"
+
+#: src/planner-format.c:147
+#, c-format
+msgid "%dh"
+msgstr "%dh"
+
+#: src/planner-format.c:171
+#, c-format
+msgid "%s days"
+msgstr "%s gün"
+
+#: src/planner-format.c:174
+msgid "0 days"
+msgstr "0 gün"
+
+#: src/planner-format.c:177
+#, c-format
+msgid "%s day"
+msgstr "%s gün"
+
+#. i18n: this string is the date nr and month name, displayed
+#. * e.g. in the date cells in the task tree. See
+#. * libmrproject/docs/DateFormat.
+#.
+#: src/planner-format.c:197
+msgid "%b %e"
+msgstr "%b %e"
+
+#. i18n: project start, the date format is described in
+#. * libmrproject/docs/DateFormat.
+#: src/planner-gantt-background.c:579
+msgid "%Y %b %d"
+msgstr ""
+
+#: src/planner-gantt-background.c:581
+msgid "Project start"
+msgstr "Proje başlangıcı"
+
+#: src/planner-gantt-print.c:190 src/planner-group-dialog.c:387
+#: src/planner-property-dialog.c:378 src/planner-resource-view.c:976
+#: src/planner-task-dialog.c:1311 src/planner-task-dialog.c:1397
+#: src/planner-task-view.c:261
+msgid "Name"
+msgstr "İsim"
+
+#: src/planner-gantt-print.c:198 src/planner-resource-dialog.c:1101
+#: src/planner-resource-view.c:639 src/planner-resource-view.c:655
+#: src/planner-resource-view.c:1197 src/planner-task-view.c:264
+msgid "Work"
+msgstr "Çalışma"
+
+#: src/planner-gantt-print.c:513 src/planner-gantt-print.c:515
+#: src/planner-gantt-row.c:656 src/planner-gantt-row.c:658
+#: src/planner-window.c:1636
+msgid "Unnamed"
+msgstr "İsimsiz"
+
+#: src/planner-gantt-row.c:1841 src/planner-gantt-row.c:1844
+msgid "No name"
+msgstr "İsimsiz"
+
+#: src/planner-gantt-row.c:1847
+#, c-format
+msgid "Make task '%s' a predecessor of '%s'"
+msgstr ""
+
+#: src/planner-gantt-row.c:1905
+#, c-format
+msgid "Change work to %s"
+msgstr ""
+
+#: src/planner-gantt-view.c:277
+msgid "Gantt Chart"
+msgstr ""
+
+#: src/planner-gantt-view.c:285
+msgid "_Gantt Chart"
+msgstr "_Gantt Çizelgesi"
+
+#: src/planner-gantt-view.c:482
+msgid ""
+"\n"
+"Name"
+msgstr ""
+"\n"
+"İsim"
+
+#. COL_START,    _("\nStart"),
+#: src/planner-gantt-view.c:484
+msgid ""
+"\n"
+"Work"
+msgstr ""
+
+#: src/planner-group-dialog.c:393
+msgid "Manager name"
+msgstr ""
+
+#: src/planner-group-dialog.c:399
+msgid "Manager phone"
+msgstr "Yönetici telefonu"
+
+#: src/planner-group-dialog.c:405
+msgid "Manager email"
+msgstr "Yönetici e-posta adresi"
+
+#: src/planner-html-plugin.c:138
+#, c-format
+msgid ""
+"\"%s\" is a directory.\n"
+"Enter a filename and try again."
+msgstr ""
+
+#: src/planner-html-plugin.c:148 src/planner-window.c:1404
+#, c-format
+msgid "File \"%s\" exists, do you want to overwrite it?"
+msgstr ""
+
+#: src/planner-main.c:50
+msgid "Create the initial window with the given geometry."
+msgstr ""
+
+#: src/planner-main.c:50
+msgid "GEOMETRY"
+msgstr ""
+
+#: src/planner-main.c:76
+msgid "planner: --geometry cannot be used with more than one file."
+msgstr ""
+
+#: src/planner-plugin-loader.c:40
+#, c-format
+msgid "Could not open plugin file '%s'\n"
+msgstr ""
+
+#: src/planner-predecessor-model.c:191 src/planner-task-dialog.c:1039
+msgid "FS"
+msgstr "FS"
+
+#: src/planner-predecessor-model.c:194 src/planner-task-dialog.c:1040
+msgid "FF"
+msgstr "FF"
+
+#: src/planner-predecessor-model.c:197 src/planner-task-dialog.c:1041
+msgid "SS"
+msgstr "SS"
+
+#: src/planner-predecessor-model.c:200 src/planner-task-dialog.c:1042
+msgid "SF"
+msgstr "SF"
+
+#: src/planner-print-dialog.c:112
+msgid "Print Project"
+msgstr "Projeyi Yazdır"
+
+#: src/planner-print-dialog.c:119
+msgid "Select views"
+msgstr ""
+
+#: src/planner-print-dialog.c:143
+msgid "Select the views to print:"
+msgstr ""
+
+#: src/planner-project-properties.c:308
+msgid "Select a calendar to use for this project:"
+msgstr ""
+
+#: src/planner-project-properties.c:403
+msgid "Edit Project Name"
+msgstr ""
+
+#: src/planner-project-properties.c:439
+msgid "Edit Organization"
+msgstr "Organizasyonu Düzenle"
+
+#: src/planner-project-properties.c:475
+msgid "Edit Manager"
+msgstr "Yöneticiyi Düzenle"
+
+#: src/planner-project-properties.c:546
+msgid "Edit Project Start"
+msgstr "Proje Başlangıcını Düzenle"
+
+#: src/planner-project-properties.c:615
+msgid "Edit Project Phase"
+msgstr "Proje Safhasını Düzenle"
+
+#: src/planner-project-properties.c:748
+msgid "Property"
+msgstr "Özellik"
+
+#: src/planner-project-properties.c:759 src/planner-property-dialog.c:431
+msgid "Value"
+msgstr "Değer"
+
+#: src/planner-project-properties.c:1130 src/planner-property-dialog.c:229
+msgid "The name of the custom property needs to start with a letter."
+msgstr ""
+
+#: src/planner-project-properties.c:1202 src/planner-property-dialog.c:300
+#, c-format
+msgid "Do you really want to remove the property '%s' from the project?"
+msgstr ""
+
+#: src/planner-project-properties.c:1344
+msgid "Could not create properties dialog."
+msgstr ""
+
+#: src/planner-property-dialog.c:397
+msgid "Label"
+msgstr "Etiket"
+
+#: src/planner-property-dialog.c:411 src/planner-resource-view.c:997
+#: src/planner-task-dialog.c:1429
+msgid "Type"
+msgstr "Tür"
+
+#. Put "no group" at the top.
+#: src/planner-resource-dialog.c:248 src/planner-resource-input-dialog.c:96
+#: src/planner-resource-view.c:1385
+msgid "(None)"
+msgstr "(Hiçbiri)"
+
+#: src/planner-resource-dialog.c:258 src/planner-resource-input-dialog.c:106
+#: src/planner-task-dialog.c:249
+msgid "(No name)"
+msgstr "(İsimsiz)"
+
+#. i18n: time stamp format for notes in task dialog, see strftime(3) for
+#. * a detailed description.
+#: src/planner-resource-dialog.c:728 src/planner-task-dialog.c:679
+msgid "%a %d %b %Y, %H:%M\n"
+msgstr ""
+
+#: src/planner-resource-dialog.c:826
+msgid "None (use project default)"
+msgstr ""
+
+#: src/planner-resource-dialog.c:953 src/planner-resource-dialog.c:955
+msgid "Edit resource properties"
+msgstr "Kaynak özelliklerini düzenle"
+
+#: src/planner-resource-dialog.c:1102 src/planner-resource-view.c:642
+#: src/planner-resource-view.c:656 src/planner-resource-view.c:1198
+msgid "Material"
+msgstr ""
+
+#: src/planner-resource-view.c:250
+msgid "/_Insert resource"
+msgstr ""
+
+#: src/planner-resource-view.c:251
+msgid "/_Remove resource"
+msgstr ""
+
+#: src/planner-resource-view.c:252
+msgid "/_Edit resource..."
+msgstr ""
+
+#: src/planner-resource-view.c:352
+msgid "_Resources"
+msgstr "_Kaynaklar"
+
+#: src/planner-resource-view.c:859
+msgid "Edit custom resource properties"
+msgstr ""
+
+#: src/planner-resource-view.c:1021
+msgid "Group"
+msgstr ""
+
+#: src/planner-resource-view.c:1050
+msgid "Email"
+msgstr ""
+
+#. i18n: Short "Week", preferably 2 letters.
+#: src/planner-scale-utils.c:325
+#, c-format
+msgid "Wk %d"
+msgstr ""
+
+#: src/planner-scale-utils.c:329
+#, c-format
+msgid "Week %d"
+msgstr ""
+
+#. i18n: Week, year.
+#: src/planner-scale-utils.c:334
+#, c-format
+msgid "Week %d, %d"
+msgstr ""
+
+#. i18n: Short "Quarter", preferrably 1 letter.
+#: src/planner-scale-utils.c:365
+#, c-format
+msgid "Q%d"
+msgstr ""
+
+#. i18n: Short "Quarter", preferrably 2-3 letters.
+#: src/planner-scale-utils.c:369
+#, c-format
+msgid "Qtr %d"
+msgstr ""
+
+#. i18n: Year, short "Quarter", preferrably 2-3 letters.
+#: src/planner-scale-utils.c:373
+#, c-format
+msgid "%d, Qtr %d"
+msgstr ""
+
+#. i18n: Short "Half year", prefferably 1 letter.
+#: src/planner-scale-utils.c:386
+#, c-format
+msgid "H%d"
+msgstr ""
+
+#. i18n: Year, short "Half year", prefferably 1 letter.
+#: src/planner-scale-utils.c:391
+#, c-format
+msgid "%04d, H%d"
+msgstr ""
+
+#: src/planner-sql-plugin.c:273
+#, c-format
+msgid ""
+"Connection to database '%s' failed:\n"
+"%s"
+msgstr ""
+
+#: src/planner-sql-plugin.c:322
+msgid "Project"
+msgstr ""
+
+#: src/planner-sql-plugin.c:494
+msgid "Open from Database"
+msgstr ""
+
+#: src/planner-sql-plugin.c:601
+msgid "Save to Database"
+msgstr ""
+
+#: src/planner-task-dialog.c:745
+msgid "Finish to start (FS)"
+msgstr ""
+
+#: src/planner-task-dialog.c:746
+msgid "Finish to finish (FF)"
+msgstr ""
+
+#: src/planner-task-dialog.c:747
+msgid "Start to start (SS)"
+msgstr ""
+
+#: src/planner-task-dialog.c:748
+msgid "Start to finish (SF)"
+msgstr ""
+
+#: src/planner-task-dialog.c:798
+msgid "Can't add new predecessor. No task selected!"
+msgstr ""
+
+#: src/planner-task-dialog.c:1330
+msgid "Assigned"
+msgstr ""
+
+#: src/planner-task-dialog.c:1347
+msgid "Units"
+msgstr ""
+
+#: src/planner-task-dialog.c:1451
+msgid "Lag"
+msgstr ""
+
+#: src/planner-task-dialog.c:1584 src/planner-task-dialog.c:1586
+msgid "Edit task properties"
+msgstr ""
+
+#: src/planner-task-tree.c:189
+msgid "/_Insert task"
+msgstr "/Görev ekl_e"
+
+#: src/planner-task-tree.c:192
+msgid "/_Insert subtask"
+msgstr "/Alt _görev ekle"
+
+#: src/planner-task-tree.c:195
+msgid "/_Remove task"
+msgstr "/Gö_revi sil"
+
+#: src/planner-task-tree.c:200
+msgid "/_Unlink task"
+msgstr "/Görev_in bağlantısını kopar"
+
+#: src/planner-task-tree.c:206
+msgid "/_Edit task..."
+msgstr "/Görevi _düzenle"
+
+#: src/planner-task-tree.c:297
+msgid "Insert task"
+msgstr "Görev ekle"
+
+#: src/planner-task-tree.c:373
+msgid "Edit task property"
+msgstr ""
+
+#: src/planner-task-tree.c:2421
+msgid "mon"
+msgstr "ay"
+
+#. month unit variant accepted in input
+#: src/planner-task-tree.c:2422
+msgid "month"
+msgstr "ay"
+
+#. month unit variant accepted in input
+#: src/planner-task-tree.c:2423
+msgid "months"
+msgstr "ay"
+
+#. month unit variant accepted in input
+#: src/planner-task-tree.c:2424
+msgid "w"
+msgstr "h"
+
+#. week unit variant accepted in input
+#: src/planner-task-tree.c:2425
+msgid "week"
+msgstr "hafta"
+
+#. week unit variant accepted in input
+#: src/planner-task-tree.c:2426
+msgid "weeks"
+msgstr "hafta"
+
+#. week unit variant accepted in input
+#: src/planner-task-tree.c:2427
+msgid "d"
+msgstr "g"
+
+#. day unit variant accepted in input
+#: src/planner-task-tree.c:2428
+msgid "day"
+msgstr "gün"
+
+#. day unit variant accepted in input
+#: src/planner-task-tree.c:2430
+msgid "h"
+msgstr "s"
+
+#. hour unit variant accepted in input
+#: src/planner-task-tree.c:2431
+msgid "hour"
+msgstr "saat"
+
+#. hour unit variant accepted in input
+#: src/planner-task-tree.c:2432
+msgid "hours"
+msgstr "saat"
+
+#. hour unit variant accepted in input
+#: src/planner-task-tree.c:2433
+msgid "min"
+msgstr "dak"
+
+#. minute unit variant accepted in input
+#: src/planner-task-tree.c:2434
+msgid "minute"
+msgstr "dakika"
+
+#. minute unit variant accepted in input
+#: src/planner-task-tree.c:2435
+msgid "minutes"
+msgstr "dakika"
+
+#: src/planner-task-view.c:199
+msgid "Tasks"
+msgstr "Görevler"
+
+#: src/planner-task-view.c:207
+msgid "_Tasks"
+msgstr "_Görevler"
+
+#: src/planner-task-view.c:262
+msgid "Start"
+msgstr "Başlangıç"
+
+#: src/planner-task-view.c:263
+msgid "Finish"
+msgstr "Bitiş"
+
+#: src/planner-task-view.c:265
+msgid "Slack"
+msgstr ""
+
+#: src/planner-task-view.c:472
+msgid "Edit custom task properties"
+msgstr ""
+
+#: src/planner-view-loader.c:41
+#, c-format
+msgid "Could not open view plugin file '%s'\n"
+msgstr ""
+
+#: src/planner-window.c:639
+msgid "Open a file"
+msgstr "Bir dosya aç"
+
+#. I18n: Translators, list your names here, newline separated if there
+#. * are more than one, to appear in the about box.
+#.
+#: src/planner-window.c:1085 src/planner-window.c:1092
+msgid "translator_credits"
+msgstr "Görkem Çetin"
+
+#. "Copyright \xc2\xa9"
+#: src/planner-window.c:1089
+msgid "A Project Management application for the GNOME desktop"
+msgstr "GNOME masaüstü için proje planlama programı"
+
+#: src/planner-window.c:1099
+msgid "The Planner Homepage"
+msgstr "Planner Web Sayfası"
+
+#: src/planner-window.c:1215
+msgid "If you don't save, changes made the last minute will be discarded."
+msgstr ""
+
+#: src/planner-window.c:1220
+#, c-format
+msgid "If you don't save, changes made the last %d minutes will be discarded."
+msgstr ""
+
+#: src/planner-window.c:1225
+msgid "If you don't save, changes made the last hour will be discarded."
+msgstr ""
+
+#: src/planner-window.c:1230
+#, c-format
+msgid "If you don't save, changes made the last %d hours will be discarded."
+msgstr ""
+
+#: src/planner-window.c:1237
+#, c-format
+msgid "Save changes to document '%s' before closing?"
+msgstr ""
+
+#: src/planner-window.c:1255
+msgid "C_lose without saving"
+msgstr "_Kaydetmeden kapat"
+
+#: src/planner-window.c:1257
+msgid "_Cancel"
+msgstr "İ_ptal"
+
+#: src/planner-window.c:1368
+msgid "Save a file"
+msgstr "Bir dosya kaydet"
+
+#: src/planner-window.c:1599
+msgid ""
+"You have opened a file that was saved with an old version of Planner.\n"
+"\n"
+"When loading old files, all tasks will use the constraint 'Must Start On', "
+"since the old version did not fully support automatic rescheduling. To take "
+"advantage of this new feature, you should add predecessor relations between "
+"tasks that are dependant on each other.\n"
+"\n"
+"You can add a predecessor relation by clicking on the predecessor and "
+"dragging to the successor.\n"
+"\n"
+"After doing this, you can remove all constraints by selecting the menu item "
+"'Remove all constraints' in the 'Edit' menu."
+msgstr ""
+
